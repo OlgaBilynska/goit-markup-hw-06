@@ -90,5 +90,9 @@
 <path fill="none" stroke="#404bbf" style="stroke: var(--color1, #404bbf)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.5" d="M4 1.25h24c1.519 0 2.75 1.231 2.75 2.75v24c0 1.519-1.231 2.75-2.75 2.75h-24c-1.519 0-2.75-1.231-2.75-2.75v-24c0-1.519 1.231-2.75 2.75-2.75z"></path>
 </symbol>
 
+<symbol id="icon-subscribe" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M32 2.667l-32 15 10.227 3.156 15.773-12.323-11.997 13.488 0.009 0.004-0.012-0.004v7.345l5.735-5.576 7.267 2.243 4.999-23.333z"></path>
+</symbol>
+
   </defs>
 </svg>
