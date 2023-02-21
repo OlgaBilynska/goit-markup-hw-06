@@ -1,0 +1,52 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-twitter {
+  width: 1.142578125em;
+}
+
+.icon-union {
+  width: 0.8720703125em;
+}
+
+.icon-company {
+  width: 0.76953125em;
+}
+
+.icon-diligence {
+  width: 1.2802734375em;
+}
+
+.icon-facebook {
+  width: 0.5625em;
+}
+
+.icon-foster-peters {
+  width: 2.048828125em;
+}
+
+.icon-punctuality {
+  width: 0.96875em;
+}
+
+.icon-strategy {
+  width: 0.9375em;
+}
+
+.icon-third-client {
+  width: 1.0732421875em;
+}
