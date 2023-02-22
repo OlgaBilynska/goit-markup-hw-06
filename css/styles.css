@@ -674,9 +674,20 @@ img {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  /* outline: none; */
-
+  outline: none;
   transition: border-color 250ms var(--transition);
+}
+
+.form-block:is(:hover, :focus) .form-item {
+  border-color: var(--primary-brand);
+}
+
+.feedback-block:is(:hover, :focus) .feedback-form {
+  border-color: var(--primary-brand);
+}
+
+.form-block:is(:hover, :focus) .contact-icon {
+  fill: var(--primary-brand);
 }
 
 .contact-form {
@@ -694,21 +705,7 @@ img {
 }
 
 .contact-icon.email-icon {
-  /* position: absolute;
-  justify-content: left; */
   left: 17.5px;
-}
-
-.form-block:is(:hover, :focus) .form-item {
-  border-color: var(--primary-brand);
-}
-
-.feedback-block:is(:hover, :focus) .feedback-form {
-  border-color: var(--primary-brand);
-}
-
-.form-block:is(:hover, :focus) .contact-icon {
-  fill: var(--primary-brand);
 }
 
 .feedback-form {
@@ -769,8 +766,9 @@ img {
   display: inline-block;
   width: 16px;
   height: 16px;
-  border: 2px solid #000;
-  border-radius: 4px;
+
+  border: 1.25px solid var(--main-color);
+  border-radius: 2px;
   transform: translateX(calc(-100% - 8px));
   opacity: 1;
   transition: opacity 250ms var(--transition);
