@@ -263,31 +263,6 @@ button {
   margin: -1px;
 }
 
-/*Footer*/
-
-.footer {
-  padding: 100px 0px;
-  background-color: var(--main-color);
-}
-
-.footer-logo {
-  font-family: 'Raleway', 'Verdana', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--background-color);
-}
-
-.footer-text {
-  margin-top: 16px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--footer-color);
-}
-
 h1,
 h2,
 h3,
@@ -606,53 +581,6 @@ img {
   fill: currentColor;
 } */
 
-.footer-title {
-  color: var(--white-color);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-}
-
-.footer-blocks {
-  display: flex;
-  gap: 120px;
-}
-
-.social-list-footer {
-  display: flex;
-  gap: 16px;
-}
-
-.social-item-footer {
-  width: 40px;
-  height: 40px;
-  background-color: var(--text-color);
-  border-radius: 50%;
-}
-
-.soc-link-footer {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: background-color 250ms var(--transition);
-}
-
-.soc-link-icon-footer {
-  fill: var(--background-color);
-}
-
-.soc-link-footer:hover,
-.soc-link-footer:focus {
-  background-color: var(--valid-fields);
-}
-
 /*Modal*/
 
 .backdrop {
@@ -765,7 +693,7 @@ img {
   transition: fill 250ms var(--transition);
 }
 
-.contact-icon.email {
+.contact-icon.email-icon {
   /* position: absolute;
   justify-content: left; */
   left: 17.5px;
@@ -845,6 +773,10 @@ img {
 
 /* .checkbox-block:focus .checkbox:active  */
 
+/* .footer-sub {
+  margin-left: 80px;
+} */
+
 .send-button {
   display: inline-block;
   margin: 0 auto;
@@ -864,6 +796,78 @@ img {
 
 .send-button:is(:hover, :focus) {
   background-color: var(--hover-button);
+}
+
+/*Footer*/
+
+.footer {
+  padding: 100px 0px;
+  background-color: var(--main-color);
+}
+
+.footer-logo {
+  font-family: 'Raleway', 'Verdana', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+.footer-text {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-color);
+}
+
+.footer-title {
+  color: var(--white-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.footer-blocks {
+  display: flex;
+  /* gap: 120px; */
+}
+
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.social-item-footer {
+  width: 40px;
+  height: 40px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+}
+
+.soc-link-footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 250ms var(--transition);
+}
+
+.soc-link-icon-footer {
+  fill: var(--background-color);
+}
+
+.soc-link-footer:hover,
+.soc-link-footer:focus {
+  background-color: var(--valid-fields);
 }
 
 .sub-btn {
@@ -899,7 +903,6 @@ img {
   width: 264px;
   padding: 8px 16px;
   background-color: transparent;
-  border-color: tra;
   height: 40px;
 
   font-family: 'Roboto';
@@ -910,6 +913,10 @@ img {
   align-items: center;
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.6);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
 }
 
 .email::placeholder {
@@ -924,10 +931,7 @@ img {
 }
 
 .email-form {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
-  border-radius: 4px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .sub-btn-text {
@@ -938,4 +942,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-color);
+}
+
+.social-footer {
+  margin-right: 80px;
+  margin-left: 120px;
 }

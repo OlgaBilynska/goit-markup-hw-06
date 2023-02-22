@@ -419,7 +419,7 @@
 <label class="form-block" for="">
   <span class="form-description">Email</span>
   <div class="contact-form">
-  <svg class="contact-icon email" width="18" height="24">
+  <svg class="contact-icon email-icon" width="18" height="24">
     <use href="./images/icons.svg#icon-email"></use>
   </svg>
   <input class="form-item" type="email">
@@ -431,9 +431,9 @@
 <textarea class="feedback-form" name="feedback" id="" cols="30" rows="10" placeholder="Text input"></textarea>  
 </label>
 
-<label class="checkbox-block" for="">
-  <input class="checkbox" type="checkbox">
-<p class="policy-text">I accept the terms and conditions of the <a href="#">Privacy Policy</a></p>
+<label class="checkbox-block" for="checkbox">
+  <input class="checkbox" type="checkbox" name="checkbox" id="checkbox">
+<span class="policy-text">I accept the terms and conditions of the <a href="#">Privacy Policy</a></span>
 </label>
 
 <button class="send-button" type="submit">Send</button>
@@ -454,6 +454,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
+
         <div class="social-footer">
           <p class="footer-title">Social media</p>
             <ul class="social-list-footer list">
@@ -490,12 +491,10 @@
         </div>
 
         <div class="footer-sub">
-      
           <p class="footer-title">Subscribe</p>
           <form  class="sub-form" action="">
-            <label class="email-form">
-            <input class="email" type="email" name="" id="" placeholder="E-mail">
-            </label>
+
+             <input class="email" type="email" name="" id="" placeholder="E-mail">
       
             <button class="sub-btn" type="submit">
               <span class="sub-btn-text">Subscribe</span>
