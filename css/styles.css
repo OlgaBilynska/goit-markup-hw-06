@@ -764,6 +764,7 @@ img {
   display: flex;
   align-items: center;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 
 .checkbox {
@@ -942,6 +943,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-color);
+
+  transition: background-color 250ms var(--transition);
+}
+
+.sub-btn-text:is(:hover, :focus) {
+  background-color: var(--hover-button);
 }
 
 .social-footer {
