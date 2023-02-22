@@ -677,15 +677,19 @@ img {
   transition: border-color 250ms var(--transition);
 }
 
-.form-block:is(:hover, :focus) .form-item {
+.form-item:focus {
   border-color: var(--primary-brand);
 }
 
-.feedback-block:is(:hover, :focus) .feedback-form {
+/* .form-block:is(:hover, :focus) .form-item {
+  border-color: var(--primary-brand);
+} */
+
+.feedback-form:focus {
   border-color: var(--primary-brand);
 }
 
-.form-block:is(:hover, :focus) .contact-icon {
+.form-item:focus + .contact-icon {
   fill: var(--primary-brand);
 }
 
