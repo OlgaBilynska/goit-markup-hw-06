@@ -735,6 +735,8 @@ img {
 }
 
 .form-description {
+  display: inline-block;
+
   margin-bottom: 4px;
   margin-top: 8px;
 
