@@ -848,9 +848,9 @@ img {
 
 /* .checkbox-block:focus .checkbox:active  */
 
-/* .footer-sub {
-  margin-left: 80px;
-} */
+.footer-sub {
+  margin-right: auto;
+}
 
 .send-button {
   display: inline-block;
