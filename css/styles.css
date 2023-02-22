@@ -793,6 +793,11 @@ img {
   opacity: 1;
 }
 
+.checkbox:focus ~ .policy-text::before {
+  opacity: 1;
+  border-color: var(--primary-brand);
+}
+
 .checkbox-block {
   position: relative;
   display: flex;
