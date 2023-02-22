@@ -710,16 +710,16 @@ img {
 
 .contact-icon {
   position: absolute;
-  left: 19px;
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
 
   transition: fill 250ms var(--transition);
 }
 
-.contact-icon.email-icon {
+/* .contact-icon.email-icon {
   left: 17.5px;
-}
+} */
 
 .feedback-form {
   padding-top: 8px;
