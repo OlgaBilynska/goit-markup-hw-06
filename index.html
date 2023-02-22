@@ -402,7 +402,7 @@
   <svg class="contact-icon" width="18" height="18">
     <use href="./images/icons.svg#icon-person"></use>
   </svg>
-  <input class="form-item" type="text">
+  <input class="form-item" type="text" name="name">
   </div>
 </label>
 
@@ -412,7 +412,7 @@
   <svg class="contact-icon" width="18" height="24">
     <use href="./images/icons.svg#icon-phone"></use>
   </svg>
-  <input class="form-item" type="tel">
+  <input class="form-item" type="tel"name=phone>
   </div>
 </label>
 
@@ -422,18 +422,25 @@
   <svg class="contact-icon email-icon" width="18" height="24">
     <use href="./images/icons.svg#icon-email"></use>
   </svg>
-  <input class="form-item" type="email">
+  <input class="form-item" type="email" name="email">
   </div>
 </label>
 
 <label class="feedback-block" for="">
   <span class="form-description">Comment</span>
-<textarea class="feedback-form" name="feedback" id="" cols="30" rows="10" placeholder="Text input"></textarea>  
+<textarea class="feedback-form" name="feedback" rows="10" placeholder="Text input"></textarea>  
 </label>
 
 <label class="checkbox-block" for="checkbox">
-  <input class="checkbox" type="checkbox" name="checkbox" id="checkbox">
+
+  <span class="checkbox-inactive"></span>
+  <input class="checkbox visually-hidden" type="checkbox" name="checkbox" id="checkbox">
 <span class="policy-text">I accept the terms and conditions of the <a href="#">Privacy Policy</a></span>
+
+
+<svg class="checkbox-active"  width="16" height="16">
+  <use href="./images/icons.svg#icon-click"></use>
+</svg>
 </label>
 
 <button class="send-button" type="submit">Send</button>
@@ -492,12 +499,13 @@
 
         <div class="footer-sub">
           <p class="footer-title">Subscribe</p>
-          <form  class="sub-form" action="">
+          <form  class="sub-form">
+<label id="email-footer">
+            <input class="email" type="email" name="sub-button" id="email-footer" placeholder="E-mail">
+      </label>
 
-            <input class="email" type="email" name="" id="" placeholder="E-mail">
-      
             <button class="sub-btn" type="submit">
-              <span class="sub-btn-text">Subscribe</span>
+              <p class="sub-btn-text">Subscribe</p>
 <svg class="btn-image" width="24" height="24">
   <use href="./images/icons.svg#icon-subscribe"></use>
 </svg>
